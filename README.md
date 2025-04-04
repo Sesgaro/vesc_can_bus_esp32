@@ -1,5 +1,4 @@
 # vesc_can_bus_esp32
-VESC library for CAN bus control using MCP2515 SPI Driver and Arduino IDE
 ![image](https://github.com/Sesgaro/vesc_can_bus_esp32/blob/main/images/header.png?raw=true "Header")
 
 This repo contains the CAN bus protocol for VESC that can be used with arduino and the MCP2515 driver library by Cory Fowler (see credits).
