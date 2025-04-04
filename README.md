@@ -36,9 +36,11 @@ CAN STATUS_MESSAGE_MODE = CAN_STATUS_1_2_3_4_5
 
 CAN Baud Rate = CAN_BAUD_250K
 
-
+This library has been tested with an ESP32-S3, in case your board has the CS pin on another pin modify the `MCP_CAN CAN0({required pin});` line, no need to modify the library.
 
 Add this library in Arduino
+
+
 
 # Credits
 
