@@ -6,8 +6,8 @@ MCP_CAN CAN0(10); // CS pin
 bool print_realtime_data = true;
 long last_print_data;
 
-VescCAN llanta1(CAN0, 0x0A);
-VescCAN llanta2(CAN0, 0x0B);
+VescCAN llanta1(CAN0, 0x0A);    // ID 10
+VescCAN llanta2(CAN0, 0x0B);    // ID 11
 //VescCAN llanta3(CAN0, 0x0C);
 //VescCAN llanta4(CAN0, 0x0D);
 VescCAN* llantas[] = {&llanta1, &llanta2}; //&llanta3, &llanta4};
